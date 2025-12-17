@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <link rel="shortcut icon" href="./images/OIP.jpg" type="image/x-icon">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Css/all.min.css">
+    <link rel="stylesheet" href="./Css/main.css">
+</head>
+<body>
+<main>
+     <!-- spinner -->
+                    <span class="loader"></span>
+      <!-- ??sideBr--------- -->
+                <aside class="d-flex">
+                    <div class="side-left bg-black close">
+                        <ul>
+                            <li><a id="search">Search</a></li>
+                            <li><a id="catagory">catagory</a></li>
+                            <li><a id="area">Area</a></li>
+                            <li><a id="Ingredients">Ingredients</a></li>
+                           <!-- <li><a id="Contact-us">Contact us</a></li> -->
+                        </ul>
+                        <ul class="icons">
+                            <li><a><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a><i class="fa-brands fa-linkedin"></i></a></li>
+                            <p>Copyright Â© 2019 All RightsReserved.</p>
+                        </ul>
+                    </div>
+                    <div class="side-right bg-white">
+                        <picture><img src="./images/OIP.jpg" alt="icon-yummy" class="logo" ></picture>
+                        <i class="fa-solid fa-x d-none" id="close"></i>
+                        <i class="fa-solid fa-bars" id="bar"></i>
+                        <div class="ico-bottom d-flex flex-column">
+                            <i class="fa-solid fa-globe"></i>
+                            <i class="fa-solid fa-link"></i>
+                        </div>
+                    </div>
+                </aside>
+         <!-- ??--------------- -->
+             <!-- !the search ------------------------->
+             <div class="container py-3">
+                   <div class="inputs d-flex d-none">
+                    <input type="text" class="form-control w-50 ms-4" placeholder="Search By Name" id="searchName" />
+                    <input type="text" class="form-control w-50 ms-4" placeholder="Search By First Letter" id="searchLetter" />
+                </div>
+             </div>
+                 <!-- !-------------- -------------->
+    <!----------- start the home------------- -->
+    <section class="home">
+
+            <div class="container">
+                <!-- meals------------------------ -->
+                    <div class="row g-3 all-meals">
+    
+                </div>
+                <!-- -------------------------------- -->
+            </div>
+    </section>
+    <!----------------- end the home--------------- -->
+     <!-- !----------- startcatagerious------------------- -->
+      <section class="categories d-none">
+<div class="container">
+      <div class="row g-3 all-categories">
+                </div>
+</div>
+      </section>
+           <!-- ________________sort of catagerious_____________________ -->
+       <section class="sortOfCatagorious d-none">
+        <div class="container">
+                  <div class="row g-3 all-sorts">
+                    
+                </div>
+        </div>
+       </section>
+      <!-- _____________________________________ -->
+     <!-- ! -------------------endtcatagerious---------------- -->
+ 
+       <!-- ^^^^^^^^^start Area^^^^^^^^^^^^^^^^^^^^ -->
+        <section class="area d-none mt-3">
+            <div class="container py-4">
+                <div class="row all-areas  g-3">
+
+                </div>
+            </div>
+        </section>
+        <!-- ???AreaMeals???????????? -->
+         <section class="areaMeals">
+            <div class="container">
+                <div class="row all-areaMeals">
+                  
+                </div>
+            </div>
+         </section>
+        <!-- ????????????????????? -->
+       <!-- ^^^^^^^^^end Area^^^^^^^^^^^^^^^^^^^^^ -->
+        <!-- &&&&&&&&&&&&&start integradients&&&&&&&& -->
+        <section class="Ingredients text-white mt-3">
+            <div class="container py-4">
+                <div class="row g-3">
+                </div>
+            </div>
+        </section>
+<!-- !!start integrediensMeals!!!!! -->
+ <section class="integrediensMeals"> 
+    <div class="container">
+        <div class="row">
+           
+        </div>
+    </div>
+ </section>
+<!-- !!end integrediensMeals!!!!! -->
+        <!-- &&&&&&&&&&&&&end integradients&&&&&&&& -->
+     <!-- todo start details ------------>
+      <section class="details d-none">
+        <div class="container text-white py-5">
+            <div class="row">
+            </div>
+        </div>
+      </section>
+      <!-- todo end details ------------->
+       <!-- ##########start contact###### -->
+        <!-- <section class="contact">
+            <div class="container">
+                <div class="inputs-left">
+                    <input type="text" placeholder="Enter Your Name"/>
+                    <input type="text" placeholder="Enter Your Phone"/>
+                    <input type="text" placeholder="Enter Your Name"/>
+                </div>
+            </div>
+        </section> -->
+       <!-- ##########end contact###### -->
+</main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script> 
+<script src="./Js/index.js" type="module"></script>
+</html>
