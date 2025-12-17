@@ -64,7 +64,7 @@ label {
 /* end signIn */
 /* start register */
 .register {
-    min-height: 10 0vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     background: #000;
@@ -117,9 +117,6 @@ label {
 /* end register */
 /* &&&&Global&&& */
 @media (max-width:557px) {
-  .row{
-  margin-left: 55px !important;
-}
 .row.all-areas {
   margin-left: 0 !important;
 }
